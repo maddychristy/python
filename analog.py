@@ -23,7 +23,8 @@ from datetime import timedelta,datetime
 from math import sin, cos, pi
 from threading import Thread
 try:
-    from tkinter import *       
+    from tkinter import *
+    #try
 except ImportError:
     try:
        from mtTkinter import *  
